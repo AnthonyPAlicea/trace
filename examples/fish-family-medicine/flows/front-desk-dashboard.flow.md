@@ -20,6 +20,7 @@ domains:
 
 ## FRAME: AppointmentDetail
 - REF: design-system/components/detail-sidebar.jsx
+- REF: design-system/mockups/appointment-sidebar.png
 - ENTERS_FROM: FRAME: Schedule View
 
 Slides in as a sidebar over the schedule grid. The front desk clerk needs to see the appointment context and take action without losing sight of the rest of the day. Insurance status should be visually prominent since it affects check-in.
@@ -45,6 +46,7 @@ Slides in as a sidebar over the schedule grid. The front desk clerk needs to see
 - ACTION: "Go Back" -> Transitions to FRAME: AppointmentDetail
 
 ## FRAME: Reschedule
+- REF: design-system/components/time-slot-picker.jsx
 - ENTERS_FROM: FRAME: AppointmentDetail
 - DATA: Available slots for the same provider.
 - ACTION: Select new time -> Updates Appointment.appointment_time, Transitions to FRAME: Schedule View
@@ -52,6 +54,7 @@ Slides in as a sidebar over the schedule grid. The front desk clerk needs to see
 
 ## FRAME: QuickAdd
 - REF: design-system/templates/quick-entry-form.jsx
+- REF: design-system/mockups/quick-add-walkin.png
 - ENTERS_FROM: FRAME: Schedule View
 - DATA: Patient search, reason for visit, provider selection.
 - ACTION: "Create Appointment" -> Creates Appointment in Confirmed status, Transitions to FRAME: Schedule View

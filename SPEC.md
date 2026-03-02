@@ -91,7 +91,7 @@ Flow files then reference specific assets using the `REF` keyword on any SCREEN 
 ### `flows/` (User Experience)
 
 - **Purpose:** Each file defines a user experience: screens, frames, and interactions for a specific persona and workflow.
-- **Scope:** References one or more Domain files and one or more Persona files. REF keywords point to assets in the design system declared in `overview.md`.
+- **Scope:** References one or more Domain files and one or more Persona files. REF keywords point to assets (components, prototypes, mockups, etc.) in the design system declared in `overview.md`.
 - **AI Behavior:** Use these to generate Frontend Routes, State Management stores, and UI Components. When a design system reference is provided, use it as guidance for component selection and layout patterns.
 
 ---
