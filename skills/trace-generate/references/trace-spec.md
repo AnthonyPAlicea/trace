@@ -8,11 +8,11 @@ Trace is designed for what developers most need to learn and focus on in the age
 
 ---
 
-## 0. Design Philosophy: This Is for LLMs
+## 0. Design Philosophy: Designed for LLMs
 
-Trace is built for Large Language Models, not parsers. This changes everything about how the specification works.
+Trace is built for Large Language Models, not parsers.
 
-Traditional DSLs need rigid syntax because a parser is stupid. It can only understand exactly what it's been programmed to recognize. An LLM is the opposite. It understands natural language natively. It can infer meaning from context. It can read "States move forward only" and know what that means without a formal state machine grammar.
+Traditional DSLs need rigid syntax. A parser can only understand exactly what it's been programmed to recognize. An LLM is the opposite. It understands natural language natively. It can infer meaning from context (though not always perfectly). It can read "States move forward only" and know what that means without a formal state machine grammar.
 
 This means:
 
