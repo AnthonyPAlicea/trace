@@ -1,5 +1,5 @@
 ---
-name: generate
+name: trace-generate
 description: >
   Implements a software project from a Trace specification folder. A Trace folder contains
   overview.md, stack.md, personas/ (.persona.md files), domains/ (.domain.md files), and
