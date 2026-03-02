@@ -30,7 +30,7 @@ your-project/
 
 The standard is not highly proscriptive. It instead relies on the "L" in LLM, allowing architects and engineers to largely define the spec in natural language.
 
-It's recommended to use a trace to generate a plan or plans. For large projects with many domains and flows, you can ask your agent to split the plan in vertical slices, or, since flows mark which domains they depend on, focus on implementation of certain flows first.
+It's recommended to use a trace to generate a plan or plans. For large projects with many domains and flows, you can ask your agent to split the plan in vertical slices or, since flows mark which domains they depend on, focus on implementation of certain flows first.
 
 If you make changes after generation, it's recommended to ask the LLM to update the trace to match the code, keeping the trace as a "source of truth".
 
