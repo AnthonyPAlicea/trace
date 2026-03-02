@@ -18,7 +18,7 @@ ACCESS:
 
 ## Research Findings
 
-### From user interviews, Dec 2024
+### From user interviews
 - 4 of 6 patients said they've accidentally booked the wrong appointment type because the options were confusing.
 - Patients over 60 strongly preferred calling over using an app but were open to "something simple."
 - Multiple patients mentioned frustration with not knowing if their insurance was verified before arriving.
