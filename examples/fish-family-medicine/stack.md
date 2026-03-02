@@ -3,17 +3,16 @@ stack: Fish-Family-Medicine-V1
 ---
 
 BACKEND:
-- Runtime: Node.js (v20)
+- Runtime: Node.js (LTS)
 - Framework: Fastify
 - Language: TypeScript
 
 DATA:
 - Database: Supabase (Postgres)
-- ORM: Prisma
-- Realtime: Supabase Channels
+- ORM: Drizzle
 
 FRONTEND:
-- Framework: TanStack Start
+- Framework: React + Vite
 - State: Zustand
 - Styling: Tailwind CSS
 
