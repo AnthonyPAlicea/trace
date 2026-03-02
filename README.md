@@ -1,7 +1,5 @@
 # Trace
 
-**Shape the System, Generate the Code.**
-
 Trace is a declarative modeling specification for AI-driven development. You declare *what* a system is (its infrastructure, its people, its domain logic, and its user experience) in a structured folder of human-readable text files. The AI generates the implementation.
 
 Trace is designed for what developers most need to learn and focus on in the age of AI: how systems are architected, what problems they are solving, and who they are solving them for.
