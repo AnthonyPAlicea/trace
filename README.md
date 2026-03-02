@@ -28,7 +28,11 @@ your-project/
 | **Domains** | Entities, attributes, business rules, events, cross-domain constraints |
 | **Flows** | Screen-by-screen UX for each persona, with actions, data, and transitions |
 
-Domains communicate through events, not direct access. Personas define access control at the data layer, not just the UI. Flows reference domain rules so the AI enforces them in both backend and frontend.
+The standard is not highly proscriptive. It instead relies on the "L" in LLM, allowing architects and engineers to largely define the spec in natural language.
+
+It's recommended to use a trace to generate a plan or plans. For large projects with many domains and flows, you can ask your agent to split the plan in vertical slices, or, since flows mark which domains they depend on, focus on implementation of certain flows first.
+
+If you make changes after generation, it's recommended to ask the LLM to update the trace to match the code, keeping the trace as a "source of truth".
 
 ## Get Started
 
@@ -48,6 +52,8 @@ Feed the folder to an LLM and ask it to implement the system.
 The **[`skills/`](skills/)** folder contains Agent Skills for working with Trace projects. These are reusable prompts that can be loaded into AI coding assistants (like Claude Code) to automate common workflows.
 
 - **`generate`** — Generates a software project from a Trace folder. Reads the spec, produces a phased implementation plan organized by domain dependency, and builds phase by phase with review gates.
+
+It's recommended to use the Agent Skill when planning and implementing a trace. The skill will evaluate your trace and present any open questions the trace does not cover prior to implementation.
 
 ## License
 
