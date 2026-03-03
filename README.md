@@ -49,7 +49,7 @@ Feed the folder to an LLM and ask it to implement the system.
 
 ## Agent Skills
 
-The **[`skills/`](skills/)** folder contains Agent Skills for working with Trace projects. These are reusable prompts that can be loaded into AI coding assistants (like Claude Code) to automate common workflows.
+The **[`skills/`](skills/)** folder contains Agent Skills for working with Trace projects.
 
 - **`trace`** — Helps write a Trace spec (with educational notes for newer devs). Generates a software project from a Trace folder. Reads the spec, produces a phased implementation plan organized by domain dependency, and builds phase by phase with review gates.
 
