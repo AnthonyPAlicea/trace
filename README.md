@@ -40,7 +40,7 @@ The fastest way to understand Trace is to look at a real example:
 
 **[`examples/fish-family-medicine/`](examples/fish-family-medicine/)** — A complete Trace for a doctor's office with scheduling, clinical visits, and billing. Three personas, three domains, two flows.
 
-Feed the folder to an LLM and ask it to implement the system.
+Update `stack.md` with your preferred stack. Update design system references (`REF` IN `.flow.md` files). Feed the folder to an LLM and use the Agent Skill to plan implementation.
 
 ## Learn More
 
