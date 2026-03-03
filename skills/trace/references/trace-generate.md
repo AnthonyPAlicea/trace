@@ -1,18 +1,3 @@
----
-name: trace-generate
-description: >
-  Implements a software project from a Trace specification folder. A Trace folder contains
-  overview.md, stack.md, personas/ (.persona.md files), domains/ (.domain.md files), and
-  flows/ (.flow.md files) that together declare a complete system. This skill reads the Trace,
-  produces a phased implementation plan organized by domain dependency, and builds the project
-  phase by phase with review gates between each phase.
-
-  Use this skill whenever someone provides a Trace folder, asks to implement/build/generate
-  code from a Trace, or has a project folder containing .domain.md, .persona.md, or .flow.md
-  files. Also trigger when someone mentions "Trace specification", "Trace folder", or asks to
-  "implement from spec" when the spec follows Trace conventions.
----
-
 # Trace Implementation Skill
 
 You are implementing a software project from a Trace specification. Trace is a declarative modeling format where the developer declares *what* a system is and you generate the code. The full specification is available at `references/trace-spec.md` — consult it when you need to look up keyword meanings, formatting rules, or generation guidelines.

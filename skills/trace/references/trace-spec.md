@@ -376,6 +376,7 @@ To maintain readability and parsability, you must adhere to the "Clean Caps" sta
 | `DATA` | Fields referenced from one or more Domain files |
 | `ACTION` | A user interaction and its consequence. Every action declares what happens (data change, validation, etc.) AND where to go next (transition to a Screen or Frame). Actions are the edges of the flowchart |
 | `REF` | A reference to a design system asset: component, template, mockup, image, or code file. Resolves against the design_system path in overview.md. Not prescriptive, but gives the AI (and human devs) a concrete example of what this screen or frame should look or behave like |
+| `ENTERS_FROM` | Optional. Declares which Screen or Frame can transition into this one. Redundant with ACTION declarations but useful as a reading aid on complex flows, allowing you to understand a frame's context without tracing backwards through other frames |
 | `VALIDATION` | Checks against RULES defined in the Domain file |
 
 ---
@@ -536,7 +537,7 @@ domains:
 ## FRAME: Schedule View
 - REF: design-system/templates/data-table-with-status.jsx
 - REF: design-system/examples/schedule-grid.png
-- SOURCE: Appointment entity (filtered by date == today, ordered by appointment_time)
+- DATA: All appointments for today, ordered by appointment_time
 - Shows: Patient name, appointment time, duration, reason, status.
 - Color-code by status: Confirmed (neutral), CheckedIn (green), NoShow (red), Cancelled (gray).
 - ACTION: Click appointment -> Transitions to FRAME: AppointmentDetail
