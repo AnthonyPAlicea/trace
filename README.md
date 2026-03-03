@@ -51,7 +51,7 @@ Feed the folder to an LLM and ask it to implement the system.
 
 The **[`skills/`](skills/)** folder contains Agent Skills for working with Trace projects. These are reusable prompts that can be loaded into AI coding assistants (like Claude Code) to automate common workflows.
 
-- **`generate`** — Generates a software project from a Trace folder. Reads the spec, produces a phased implementation plan organized by domain dependency, and builds phase by phase with review gates.
+- **`trace`** — Helps write a Trace spec (with educational notes for newer devs). Generates a software project from a Trace folder. Reads the spec, produces a phased implementation plan organized by domain dependency, and builds phase by phase with review gates.
 
 It's recommended to use the Agent Skill when planning and implementing a trace. The skill will evaluate your trace and present any open questions the trace does not cover prior to implementation.
 

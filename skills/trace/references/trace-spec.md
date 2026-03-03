@@ -2,8 +2,6 @@
 
 **Trace** is the practice of declaring *what* a system is: its infrastructure, its people, its domain logic, and its user experience, in a structured folder of human-readable text files that serve as a specification precise enough for an AI to generate a complete implementation from, or for a human development team to build from directly. The developer shapes the system. The AI generates the code.
 
-**Tagline:** Shape the System, Generate the Code.
-
 Trace is designed for what developers most need to learn and focus on in the age of AI: how systems are architected, what problems they are solving, and who they are solving them for.
 
 ---
@@ -91,7 +89,7 @@ Flow files then reference specific assets using the `REF` keyword on any SCREEN 
 ### `flows/` (User Experience)
 
 - **Purpose:** Each file defines a user experience: screens, frames, and interactions for a specific persona and workflow.
-- **Scope:** References one or more Domain files and one or more Persona files. REF keywords point to assets in the design system declared in `overview.md`.
+- **Scope:** References one or more Domain files and one or more Persona files. REF keywords point to assets (components, prototypes, mockups, etc.) in the design system declared in `overview.md`.
 - **AI Behavior:** Use these to generate Frontend Routes, State Management stores, and UI Components. When a design system reference is provided, use it as guidance for component selection and layout patterns.
 
 ---
