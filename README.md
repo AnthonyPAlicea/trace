@@ -2,7 +2,12 @@
 
 Trace is a declarative modeling specification for AI-driven development. You declare *what* a system is (its infrastructure, its people, its domain logic, and its user experience) in a structured folder of human-readable text files. The AI generates the implementation.
 
-Trace is designed for what developers most need to learn and focus on in the age of AI: how systems are architected, what problems they are solving, and who they are solving them for.
+Trace is designed to deal with two problems:
+
+1. How do we teach new developers systems thinking in the age of the AI?
+2. How do we make holistic specs that encapsulate both the domains of the system and user-centered concerns such as user research and user flows?
+
+Trace is a spec standard that encapsulates how systems are architected, what problems they are solving, and who they are solving them for.
 
 ## How It Works
 
