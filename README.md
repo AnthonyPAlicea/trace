@@ -9,6 +9,8 @@ Trace is designed to deal with two problems:
 
 Trace is a spec standard that encapsulates how systems are architected, what problems they are solving, and who they are solving them for.
 
+**[`Read the full spec here.`](SPEC.md)**
+
 ## How It Works
 
 A Trace is a folder. It contains five layers that fully describe a software system:
@@ -50,7 +52,7 @@ Update `stack.md` with your preferred stack. Update design system references (`R
 ## Learn More
 
 - **[`SPEC.md`](SPEC.md)** - The full Trace specification: design philosophy, project structure, keywords, formatting rules, and AI generation rules.
-- **[Normal UI](https://dontimitate.dev/normalui)** - Read the full book on Normal UI for free.
+- **[Interface normalization](https://dontimitate.dev/normalui)** - Read the full book on Normal UI for free. It isn't required to implement Trace, but gives a strong foundation for designing usable user flows.
 
 ## Agent Skills
 
