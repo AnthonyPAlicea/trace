@@ -51,7 +51,7 @@ Update `stack.md` with your preferred stack. Update design system references (`R
 
 ## Learn More
 
-- **[`SPEC.md`](SPEC.md)** - The full Trace specification: design philosophy, project structure, keywords, formatting rules, and AI generation rules.
+- **[SPEC.md](SPEC.md)** - The full Trace specification: design philosophy, project structure, keywords, formatting rules, and AI generation rules.
 - **[Interface normalization](https://dontimitate.dev/normalui)** - Read the full book on Normal UI for free. It isn't required to implement Trace, but gives a strong foundation for designing usable user flows.
 
 ## Agent Skills
